@@ -25,5 +25,5 @@ use this video to get your webhooks link ~ https://www.youtube.com/watch?v=fKksx
 
 
 
-https://user-images.githubusercontent.com/48543687/227798116-ace3f40e-253b-45c0-80aa-f0dc8242cbb1.mov
+
 
