@@ -58,7 +58,7 @@ if (isUniqueVisitor) {
   // Send notification to Discord with visitor details and page URL
   const url = window.location.href;
   const message = `@everyone New unique visitor!\n\nDetails:\n- Visitor ID: ${visitorId}\n- Browser name: ${getBrowserName()}\n-  Device: ${device}\n- IP address: ${ipAddress}\n- Country: ${country}\n- City: ${city}\n- Date: ${date}\n- Current Page: ${url}`;
-  const webhookUrl = "https://discord.com/api/webhooks/1089612362052534452/zhoccScCmxn_ItAufPlLDgsISuNmSyAHAcN06fsQ_r6Nb9XJzSDyS--O8DiPfyi3mW19";
+  const webhookUrl = "https://discord.com/api/webhooks/{WEBHOOK_URL}";
   fetch(webhookUrl, {
     method: "POST",
     headers: {
@@ -74,7 +74,7 @@ if (isUniqueVisitor) {
   // Send notification to Discord with visitor details and page URL
   const url = window.location.href;
   const message = `#recurring Visitor!\n\nDetails:\n- Visitor ID: ${visitorId}\n- Browser name: ${getBrowserName()}\n-  Device: ${device}\n- IP address: ${ipAddress}\n- Country: ${country}\n- City: ${city}\n- Date: ${date}\n- Current Page: ${url}`;
-  const webhookUrl = "https://discord.com/api/webhooks/1089612362052534452/zhoccScCmxn_ItAufPlLDgsISuNmSyAHAcN06fsQ_r6Nb9XJzSDyS--O8DiPfyi3mW19";
+  const webhookUrl = "https://discord.com/api/webhooks/{WEBHOOK_URL};
   fetch(webhookUrl, {
     method: "POST",
     headers: {
