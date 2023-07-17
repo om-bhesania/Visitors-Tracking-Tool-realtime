@@ -1,5 +1,5 @@
 # Visitors-Tracking-Tool-realtime
-Your program is designed to track and record various information about website visitors in real-time, including their IP address, device type, browser, date and time of access, city, country, and the specific page they are currently browsing. This information is useful for website owners and administrators to gain insights into visitor behavior and preferences.
+My program is designed to track and record various information about website visitors in real-time, including their IP address, device type, browser, date and time of access, city, country, and the specific page they are currently browsing. This information is useful for website owners and administrators to gain insights into visitor behavior and preferences.
 
 This program will send all your data from your website to your discord server using **WEBHOOKS**
 
